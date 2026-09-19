@@ -43,6 +43,18 @@ footer {
     border-top: solid 1px #cdcdcd;
 }
 
+.alinhamento-video {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.alinhamento-video figure {
+    margin: 0;
+}
+
 .anchors {
     position: sticky;
     top: 20px;
